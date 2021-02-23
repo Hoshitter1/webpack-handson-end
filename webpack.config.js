@@ -63,7 +63,7 @@ const allPureDirName = glob
 allPureDirName.forEach((dir) => {
   // bundle js for each page folder separately
   const jsFileFullPath = path.resolve("src", dir, "index.js");
-  webpackConfig.entry[dir] = jsFileFullPath;
+  webpackConfig.entry[dir] = ["@babel/polyfill", jsFileFullPath];
 
   // add each js file to appropriate html
   // https://github.com/jantimon/html-webpack-plugin#options

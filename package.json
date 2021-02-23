@@ -17,10 +17,10 @@
   "homepage": "https://bitbucket.org/FurunoH/todo-assignment-furuno#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/polyfill": "^7.12.1",
+    "@babel/polyfill": "^7.4.0",
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
-    "core-js": "^3.9.0",
+    "core-js": "^2.6.5",
     "css-loader": "^1.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^3.2.0",

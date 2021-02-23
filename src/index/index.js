@@ -4,7 +4,6 @@ import "components/css/common.css";
 
 // JS
 import "components/js/header";
-import "components/js/footer";
 
 // image
 import "./img/instagram.jpg";
