@@ -1,0 +1,26 @@
+/* General styling */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+header {
+    background-color: green;
+    text-align: center;
+}
+
+.icon {
+    width: 30px;
+}

@@ -1,0 +1,12 @@
+.btn {
+    padding: 30px;
+    background-color: hotpink;
+    width: 150px;
+    position: absolute;
+    top: 250px;
+    left: 680px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
